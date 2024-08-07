@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Lista de repositórios dos alunos
     const repositories = [
-        { name: "Projeto 1", repo: "usuario1/projeto1" },
+        { name: "Projeto 1", repo: "anaf07/jogodavelha" },
         { name: "Projeto 2", repo: "usuario2/projeto2" },
         { name: "Projeto 3", repo: "usuario3/projeto3" }
     ];
