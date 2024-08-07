@@ -38,3 +38,9 @@ header {
 .project a:hover {
     color: #007bff;
 }
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1em;
+}
