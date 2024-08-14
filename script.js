@@ -18,9 +18,10 @@ document.addEventListener("DOMContentLoaded", async function() {
         projectElement.innerHTML = `
             <img src="${userData.avatar_url}" alt="${username}'s avatar" class="avatar">
             <h2>${repo.name}</h2>
+            <p>Profile: ${userData.name || username}</p>
             <a href="https://${username}.github.io/${repoName}" target="_blank">Visitar Página</a>
             <br>
-            <a href="https://github.com/${repo.repo}" target="_blank">Ver Repositório</a>
+            <a href="https://github.com/${repo.repo}" target="_blank">${repoName}</a>
         `;
         projectGallery.appendChild(projectElement);
     }
