@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         { name: "Projeto 1", repo: "maandioca/Jogodavelha" },
         { name: "Projeto 2", repo: "anaf07/jogodavelha" },
         { name: "Projeto 3", repo: "brxnin/jogodavelha" },
+        { name: "Projeto 3", repo: "thurxz/jogodavelha" },
         { name: "Projeto 1", repo: "brayan230/JogoDaVelha"},
         { name: "Projeto 1", repo: "gr4zxx/jogodavelhaa"},
         { name: "Projeto 1", repo: "mingaudeaveia/jogodavelha"},
@@ -38,4 +39,3 @@ document.addEventListener("DOMContentLoaded", async function() {
         projectGallery.appendChild(projectElement);
     }
 });
-
