@@ -30,11 +30,12 @@ document.addEventListener("DOMContentLoaded", async function() {
         const projectElement = document.createElement('div');
         projectElement.className = 'project';
         projectElement.innerHTML = `
+            <a href="https://${username}.github.io/${repoName}" target="_blank">
             <img src="${userData.avatar_url}" alt="${username}'s avatar" class="avatar">
             <h2>${userData.name || username}</h2>
-            <a href="https://${username}.github.io/${repoName}" target="_blank">Visitar Página</a>
-            <br>
-            <a href="https://github.com/${repo.repo}" target="_blank">${username}/${repoName}</a>
+            <a href="https://${username}.github.io/${repoName}" target="_blank">Testar o jogo</a>
+            <br><br>
+            <a href="https://github.com/${repo.repo}" target="_blank">Código: ${username}/${repoName}</a>
         `;
         projectGallery.appendChild(projectElement);
     }
