@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             <h2>${userData.name || username}</h2>
             <a href="https://${username}.github.io/${repoName}" target="_blank">Visitar Página</a>
             <br>
-            <a href="https://github.com/${repo.repo}" target="_blank">${repoName}</a>
+            <a href="https://github.com/${repo.repo}" target="_blank">${username}/${repoName}</a>
         `;
         projectGallery.appendChild(projectElement);
     }
